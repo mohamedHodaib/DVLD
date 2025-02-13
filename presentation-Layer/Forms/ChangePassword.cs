@@ -95,6 +95,7 @@ namespace DVLD.Forms
             {
                 MessageBox.Show("Password Changed Successfully", "Changing Password success",
                  MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //log the changepassword event success to the event log in your windows  
                 clsValidations.LogTheError("Password Changed Successfully", EventLogEntryType.Information);
                 if (LoginScreen.Result[0] == _User.UserName)
                     clsLogin.WriteToRegistery(_User.UserName,txtNewPassword.Text,LoginScreen.path);

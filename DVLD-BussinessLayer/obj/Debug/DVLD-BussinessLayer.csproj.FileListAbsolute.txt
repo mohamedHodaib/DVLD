@@ -8,3 +8,7 @@ F:\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.csproj.CoreCompileInputs.ca
 F:\DVLD-BussinessLayer\obj\Debug\DVLD-Bus.A9709CC4.Up2Date
 F:\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.dll
 F:\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.pdb
+C:\Users\DELL\Downloads\my-projects\DVLD\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\my-projects\DVLD\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\my-projects\DVLD\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.dll
+C:\Users\DELL\Downloads\my-projects\DVLD\DVLD-BussinessLayer\obj\Debug\DVLD-BussinessLayer.pdb

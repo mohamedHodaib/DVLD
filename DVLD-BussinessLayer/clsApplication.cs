@@ -82,11 +82,11 @@ namespace DVLD_BussinessLayer
         {
             clsGlobal.IsSystemError = DataAccessSettings.IsSystemError;
         }
-        public static int IsPersonAnActiveApplicationInThisClass(int PersonID,enApplicationType ApplicationType,int LicenseClassID)
+        public static bool IsPersonAnActiveApplicationInThisClass(int PersonID,enApplicationType ApplicationType,int LicenseClassID)
         {
-            int ApplicationID =  clsApplicationData.IsPersonHasLicenseInThisClass(PersonID, (int)ApplicationType,LicenseClassID);
+            bool IsPersonAnActiveApplicationInThisClass =  clsApplicationData.IsPersonHasLicenseInThisClass(PersonID, (int)ApplicationType,LicenseClassID);
            _AssignIsSystemErrorVariable();
-            return ApplicationID;
+            return IsPersonAnActiveApplicationInThisClass;
         }
        
         public static clsApplication FindApplicationByID(int ApplicationID)
